@@ -10,3 +10,10 @@ A Homebrew formula for [ksoichiro/adbs](https://github.com/ksoichiro/adbs).
 $ brew tap ksoichiro/adbs
 $ brew install adbs
 ```
+
+## Upgrade
+
+```sh
+$ brew update
+$ brew upgrade adbs
+```
