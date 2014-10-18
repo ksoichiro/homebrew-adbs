@@ -6,10 +6,10 @@ class Adbs < Formula
 
   if Hardware.is_64_bit?
     url "https://github.com/ksoichiro/adbs/releases/download/v0.1.1/adbs-0.1.1-bin-darwin-amd64.zip"
-    sha1 "348aafcf779e49e4d89262df0e374d0a3ef70bc6"
+    sha1 "d26ec386ff5645f25fece0d4ff041ae8a35c50b1"
   else
     url "https://github.com/ksoichiro/adbs/releases/download/v0.1.1/adbs-0.1.1-bin-darwin-386.zip"
-    sha1 "98820bf55d27675e39527d5b280296f861f48017"
+    sha1 "521e99fc747675a848f3924013a4b406604ddbde"
   end
 
   def install
