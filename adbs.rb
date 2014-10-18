@@ -2,7 +2,7 @@ require "formula"
 
 class Adbs < Formula
   homepage "https://github.com/ksoichiro/adbs"
-  version "0.1.0"
+  version "0.1.1"
 
   if Hardware.is_64_bit?
     url "https://github.com/ksoichiro/adbs/releases/download/v0.1.1/adbs-0.1.1-bin-darwin-amd64.zip"
