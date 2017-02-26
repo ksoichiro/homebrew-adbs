@@ -10,7 +10,7 @@ install:
   - brew tap --repair
 
 env:
-  - PACKAGE=adbs
+  - PACKAGE=ksoichiro/adbs
 
 script:
   - brew audit $PACKAGE
